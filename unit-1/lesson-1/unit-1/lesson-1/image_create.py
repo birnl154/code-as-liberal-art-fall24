@@ -13,4 +13,4 @@ img = Image.new("RGB",(size,size),color)
 img.save(name + ".png")
 
 
-yay this code worked great!!!
+#yay this code worked great!!!
