@@ -12,5 +12,4 @@ print(isRaeInList)
 
 university = {}
 university["subject"] = "theory"
-university[]
 #can also make these equal to a list instead of using quotes
