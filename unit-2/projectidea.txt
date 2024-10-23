@@ -1,0 +1,3 @@
+I am thinking I want to do a statement about key words on magazine webistes geared toward women.
+My thesis is about the perception of women in digital media, so I think this would tie in nicely to that.
+I would want to create a scraper that can run on these magazibe websites, like Vogue, Cosmopolitan, and Elle, and extract the key headlines or common words.
