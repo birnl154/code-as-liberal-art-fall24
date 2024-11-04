@@ -26,7 +26,7 @@ excluded_phrases = ["search", "sign in", "Join cosmo Unlocked", "By", "*"]
 #Here i am getting the span elements because they are most relevant to my project idea compared to other HTML elements
 #the random shuffle is making it so i get a new order and range of span elements to include in my short essay each time the code is run.
 def get_text_elements_with_clauses(cosmodata):
-    elements = cosmodata.select("span")
+    elements = cosmodata.select("span", "li", "p")
     random.shuffle(elements)
     
     # This will get rid of any empty span elements so my essay doesn't look weird. 

@@ -28,9 +28,9 @@ clauses = [
     "Women today are gossiping about",
 ]
 
-# Function to extract and clean the text from <li> and <span> elements
+# Function to extract and clean the text from <li>, <span>, <p>, and <h1> elements
 def get_random_text_elements_with_clauses(cosmodata):
-    elements = cosmodata.select("li, span")
+    elements = cosmodata.select("li, span, p, h1")  # Corrected line
     random.shuffle(elements)  # Randomize order of elements
 
     texts = [
